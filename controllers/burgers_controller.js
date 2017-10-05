@@ -18,7 +18,7 @@ router.get("/", function(req, res) {
     	};
 
     	console.log(hbsObject);
-    	res.render("index", hbsObject);
+    	res.render("../views/index", hbsObject);
   	});
 });
 
