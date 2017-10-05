@@ -1,0 +1,39 @@
+<!-- Steven Sober
+     10/03/2017
+     Homework: Burger_v2
+     index.handlebars -->
+
+<img src="assets/img/burger.png" alt="Burger Image">
+
+<h1>Eat-Da-Burger!</h1>
+
+
+<ul>
+  {{#each burgers}}
+	<p>{{burger_name}}</p>
+  {{/each}}
+</ul>
+
+
+<ul>
+  {{#each burgers}}
+	<p>{{burger_name}}</p>
+  {{/each}}
+</ul>
+
+<h2>Add Burger</h2>
+<form class="create-form">
+
+<!--   <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="slee">Devour It!</label><br>
+<!--     <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
+    <input type="radio" name="sleepy" value="0"> Awake -->
+  </div> -->
+
+  <button type="submit">Add Burger</button>
+</form>
